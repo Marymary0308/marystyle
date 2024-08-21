@@ -1,0 +1,70 @@
+body {
+    color: rgb(196, 196, 196);
+    background: rgb(94, 8, 97);
+    margin: 0px;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(59, 4, 36);
+    padding: 20px;
+    font-size: 30px;
+}
+
+.chamada {
+    background: rgb(37, 2, 48);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+
+}
+
+h1 {
+    font-size: 40px
+}
+
+p {
+    font-size: 20px
+}
+
+img {
+    height: 200px;
+}
+
+.videos-projeto {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+ .categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top:50px;
+  }
+
+  .videos-projeto img {
+    opacity: 0.5;
+
+  }
+
+  .videos-projeto img:hover {
+    opacity:1.0;
+    border: 1px solid purple;
+
+  }
+  .categoria h2 {
+
+    color:rgb(204, 91, 238);
+  }
